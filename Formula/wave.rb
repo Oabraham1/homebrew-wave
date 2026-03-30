@@ -5,16 +5,16 @@ class Wave < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Oabraham1/wave/releases/download/v0.1.0/wave-macos-arm64.tar.gz"
+      url "https://github.com/Oabraham1/wave/releases/download/v0.1.1/wave-macos-arm64.tar.gz"
       sha256 "PLACEHOLDER_SHA256"
     else
-      url "https://github.com/Oabraham1/wave/releases/download/v0.1.0/wave-macos-x86_64.tar.gz"
+      url "https://github.com/Oabraham1/wave/releases/download/v0.1.1/wave-macos-x86_64.tar.gz"
       sha256 "PLACEHOLDER_SHA256"
     end
   end
 
   on_linux do
-    url "https://github.com/Oabraham1/wave/releases/download/v0.1.0/wave-linux-x86_64.tar.gz"
+    url "https://github.com/Oabraham1/wave/releases/download/v0.1.1/wave-linux-x86_64.tar.gz"
     sha256 "PLACEHOLDER_SHA256"
   end
 
